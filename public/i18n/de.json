@@ -1,0 +1,53 @@
+{
+  "topbar": {
+    "subtitle": "Retrieval-Augmented Generation – komplett lokal im Browser",
+    "ragToggleTitle": "RAG ein-/ausschalten (Gegentest)",
+    "ragOn": "RAG an",
+    "ragOff": "RAG aus"
+  },
+  "chat": {
+    "placeholder": "Deine Frage …",
+    "send": "Senden",
+    "sources": "Quellen:",
+    "thinking": "Gedankengang",
+    "hint": "Frag etwas über Informatik, Software-Geschichte und IT-Sicherheit – berühmte Bugs, Programmiersprachen, Algorithmen, Sicherheitslücken … Die Antwort kommt ausschließlich aus dem lokalen Wissensarchiv – kein Server, keine API."
+  },
+  "thinking": {
+    "loaded": "Abschnitt geladen: „{{title}}“",
+    "rewrite": "Suchanfrage: „{{query}}“",
+    "tokens": "{{count}} Tokens"
+  },
+  "inspector": {
+    "tokenBudget": "Token-Budget",
+    "title": "Kontext-Inspektor",
+    "hits": "{{count}} Treffer",
+    "noQuery": "Noch keine Anfrage gestellt.",
+    "openArticle": "↗ Wikipedia-Artikel öffnen",
+    "showMore": "{{count}} Zeichen · mehr anzeigen",
+    "showLess": "weniger anzeigen",
+    "legendSystem": "System",
+    "legendHistory": "Verlauf",
+    "legendQuery": "Frage",
+    "legendDocs": "Dokumente",
+    "legendFree": "Frei"
+  },
+  "status": {
+    "initializing": "Initialisiere …",
+    "loadingModel": "Lade Gemma 4 E2B (einmaliger Download) …",
+    "ready": "Bereit · Gemma 4 E2B läuft auf {{device}}",
+    "rewriting": "Formuliere Suchanfrage …",
+    "summarizing": "Fasse Abschnitt {{current}}/{{total}} zusammen …",
+    "generating": "Generiere Antwort …"
+  },
+  "db": {
+    "starting": "Starte Vektordatenbank (pgvector) …",
+    "loadingData": "Lade Index-Daten …",
+    "importing": "Importiere Chunks … {{done}} / {{total}}",
+    "buildingIndex": "Baue Vektor-Index (HNSW) …",
+    "ready": "Datenbank bereit"
+  },
+  "llm": {
+    "downloading": "Lade Gemma 4: {{file}} {{percent}}%",
+    "webgpuFallback": "WebGPU nicht verfügbar ({{error}}) – nutze WASM …"
+  }
+}

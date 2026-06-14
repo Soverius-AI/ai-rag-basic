@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+/out-tsc
+.angular
+
+# generated retrieval index (run `npm run build:index` to regenerate)
+/public/rag-index.json
+
+# NOTE: public/rag-index.json is intentionally committed so the app runs
+# without first running the pipeline. Regenerate it with `npm run build:index`.
+
+# misc
+.DS_Store
+*.log

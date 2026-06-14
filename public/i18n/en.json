@@ -1,0 +1,53 @@
+{
+  "topbar": {
+    "subtitle": "Retrieval-Augmented Generation – fully local in the browser",
+    "ragToggleTitle": "Toggle RAG on/off (control run)",
+    "ragOn": "RAG on",
+    "ragOff": "RAG off"
+  },
+  "chat": {
+    "placeholder": "Your question …",
+    "send": "Send",
+    "sources": "Sources:",
+    "thinking": "Reasoning",
+    "hint": "Ask something about computer science, software history and IT security – famous bugs, programming languages, algorithms, vulnerabilities … The answer comes only from the local knowledge archive – no server, no API."
+  },
+  "thinking": {
+    "loaded": "Section loaded: “{{title}}”",
+    "rewrite": "Search query: “{{query}}”",
+    "tokens": "{{count}} tokens"
+  },
+  "inspector": {
+    "tokenBudget": "Token budget",
+    "title": "Context inspector",
+    "hits": "{{count}} hits",
+    "noQuery": "No query yet.",
+    "openArticle": "↗ Open Wikipedia article",
+    "showMore": "{{count}} chars · show more",
+    "showLess": "show less",
+    "legendSystem": "System",
+    "legendHistory": "History",
+    "legendQuery": "Query",
+    "legendDocs": "Documents",
+    "legendFree": "Free"
+  },
+  "status": {
+    "initializing": "Initializing …",
+    "loadingModel": "Loading Gemma 4 E2B (one-time download) …",
+    "ready": "Ready · Gemma 4 E2B running on {{device}}",
+    "rewriting": "Rephrasing query …",
+    "summarizing": "Summarizing section {{current}}/{{total}} …",
+    "generating": "Generating answer …"
+  },
+  "db": {
+    "starting": "Starting vector database (pgvector) …",
+    "loadingData": "Loading index data …",
+    "importing": "Importing chunks … {{done}} / {{total}}",
+    "buildingIndex": "Building vector index (HNSW) …",
+    "ready": "Database ready"
+  },
+  "llm": {
+    "downloading": "Loading Gemma 4: {{file}} {{percent}}%",
+    "webgpuFallback": "WebGPU unavailable ({{error}}) – using WASM …"
+  }
+}
